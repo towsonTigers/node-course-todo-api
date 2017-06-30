@@ -9,7 +9,7 @@ mongoose.connect('mongodb://localhost:27017/TodoApp');
 
 module.exports = {mongoose};
 
-//var {mongoose} = require('./db/mongoose');
+var {mongoose} = require('./db/mongoose');
 var {Todo} = require('./models/todo');
 var {User} = require('./models/user');
 
