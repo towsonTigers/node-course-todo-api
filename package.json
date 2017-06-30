@@ -9,12 +9,13 @@
     "test-watch": "nodemon --exec npm test"
   },
   "engines": {
-    "node":"6.4.0"
+    "node": "6.4.0"
   },
   "author": "Dave Morris",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "bson": "^1.0.4",
     "express": "^4.14.0",
     "mongodb": "^2.2.5",
     "mongoose": "^4.11.0"
